@@ -1,0 +1,332 @@
+#Cabecera {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+    border: 3px outset #242424;   
+    background-color: #e7e7e77c;
+    text-align: center;
+    margin: 0% 20%;
+    border-radius: 15px;
+}
+
+#CabeceraHistoria {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+    border: 3px outset #242424;   
+    background-color: #e7e7e748;
+    text-align: center;
+    margin: 0% 20%;
+    border-radius: 15px;
+}
+
+#CabeceraAtracciones {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+    border: 3px outset #242424;   
+    background-color: #e7e7e731;
+    text-align: center;
+    margin: 0% 20%;
+    border-radius: 15px;
+}
+
+#CabeceraTestimonios {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+    border: 3px outset #242424;   
+    background-color: #e7e7e700;
+    text-align: center;
+    margin: 0% 20%;
+    border-radius: 15px;
+}
+
+#CabeceraExtra {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+    border: 3px outset #242424;   
+    background-color: #e7e7e749;
+    text-align: center;
+    margin: 0% 20%;
+    border-radius: 15px;
+}
+
+#Cabecera > h1 {
+    font-size: 2vw;
+}
+
+#Inicio{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-degradado-rojo-blanco_53876-60250.jpg?w=2000);
+}
+
+#Historia {
+    background-image: url(https://us.123rf.com/450wm/roystudio/roystudio1511/roystudio151100279/48781925-crema-de-color-beige-de-fondo-abstracto-patr%C3%B3n-de-onda-suave-con-copia-espacio-puede-utilizar-como-p.jpg?ver=6);
+    background-size: cover;
+}
+
+#Atracciones {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/998/394/small/blue-abstract-background-blue-background-design-abstract-futuristic-background-free-vector.jpg);
+    background-size: cover;
+}
+
+#Testimonios {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/180/314/original/green-abstract-background-with-modern-style-wave-background-illustration-vector.jpg);
+    background-size: cover;
+}
+
+#Reservacion {
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-blanco-del-hex%C3%A1gono-abstracto-vector-110660596.jpg);
+    background-size: cover;
+}
+
+#Extra {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-morado-poligonal_1035-9882.jpg?w=2000);
+    background-size: cover;
+}
+ 
+#TituloHistoria, .SubtituloHistoria{
+    color: rgb(133, 63, 25);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#TituloInicio, #SubtituloInicio{
+    color: #bd0000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#TituloAtracciones, .Subtitulo, #Jardines, #Museos{
+    color: rgb(27, 25, 133);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#TituloTestimonio, .SubtituloTestimonio{
+    color: rgb(25, 133, 29);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#TituloReservacion, .SubtituloReservacion{
+    color: rgb(70, 70, 70);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#TituloExtra, .SubtituloExtra{
+    color: rgb(124, 25, 133);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#Menu {
+    font-size: 1vw;
+    font-style: italic;
+    text-align: center;
+}
+
+#ListaMenu {
+    list-style-type: none;
+    text-align: center;
+}
+
+.BotonMenu {
+    background-color:rgb(244, 81, 81);
+    color: aliceblue;
+    text-decoration: none;
+    padding: .3vw; 
+    transition: .8s;
+}
+
+.BotonMenu:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(224, 66, 66);
+    font-size: 1.5vw;
+}
+
+.BotonMenu:active {
+    background-color: #242424;
+    font-size: 1px;
+}
+
+.BotonMenuActual {
+    background-color: rgb(255, 255, 255);
+    color: rgb(224, 66, 66);
+    text-decoration: none;
+    padding: .5%;
+    cursor: pointer;
+}
+
+.CheckBoton {
+    font-size: 30px;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+#Check {
+    display: none;
+}
+
+.Texto {
+    text-align: justify;
+    color: rgb(56, 0, 0);
+    font-size: 1.5vw;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;   
+}
+
+.Imagenes {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#SeccionesInteresantes {
+    margin: 2% 28%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+#SeccionesInteresantes > h2 {
+   color: #0057af;
+}
+
+.BotonInteres {
+    background-color: #2D3E50;
+    border: 1px #0057af outset;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #eaeaea;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 5px;
+    transition: .5s;
+}
+
+.BotonInteres:hover {
+    background-color: #eaeaea;
+    color: #2D3E50;
+    font-size: 1.5vw;
+}
+
+#Sitios {
+    display: flex;
+    height: 30%;
+    background-color: #0003bd;
+}
+
+#Sitios > div {
+    background-color: #a3d6f4;
+    width: auto;
+    margin: 4px;
+    flex: 1 1 200px;
+}
+
+#Sitios > div > .Texto {
+    text-align: center;
+    color: rgb(7, 0, 56);
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;   
+}
+
+#Sitios > div > .Imagenes {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.Videos {
+    display: block;
+    margin: auto;
+}
+
+#Sublista {
+    text-align: center;
+}
+
+.Sublista {
+    background-color: rgb(81, 217, 244);
+    color: rgb(28, 29, 30);
+    text-decoration: none;
+    padding: .5%;
+}
+
+#Formulario {
+    text-align: center;
+    padding: 1%;
+}
+
+#Nombre, #Correo, #Numero, #FechaI, #FechaF {
+    text-align: center;
+    width: 20%;
+    padding: .5%;
+    background-color: rgb(209, 209, 209);
+}
+
+.Etiqueta {
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#BotonEnviar {
+    width: 10%;
+    padding: .5%;
+    font-size: 2vw;
+    background-color: rgb(165, 16, 16);
+    color: aliceblue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.ItemLista {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(129, 5, 244);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Lista {
+    list-style-type: none;
+}
+
+#Lugares {
+    display: flex;
+    height: 30%;
+    background-color: #bd007e;
+}
+
+#Lugares > div {
+    background-color: #f4a3da;
+    width: auto;
+    margin: 5px;
+    flex: 1 1 200px;
+}
+
+#Lugares > div > .Imagenes {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.Liga {
+    color: rgb(206, 3, 81);
+}
+
+#Referencias {
+    margin: 3% 20%;
+    border-radius: 15px;
+    font-size: 1vw;
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+    border: 1px black solid;
+}

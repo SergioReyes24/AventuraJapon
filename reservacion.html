@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación de viaje</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body id="Reservacion">
+    
+    <div id="Cabecera">
+        <h1 id="TituloReservacion">¡Reserva tu viaje a Japón!</h1>
+
+        <input type="checkbox" id="Check">
+        <label for="Check" class="CheckBoton">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII="/> 
+        </label>
+        
+        <header id="Menu">
+            <ul id="ListaMenu">
+                <a class="BotonMenu"href="./index.html">Inicio</a>
+                <a class="BotonMenu" href="./historia.html">Historia</a>
+                <a class="BotonMenu" href="./atractivos.html">Sitios atrativos</a>
+                <a class="BotonMenu" href="./testimonios.html">Testimonios</a>
+                <a class="BotonMenuActual">Reservación</a> 
+                <a class="BotonMenu" href="./extra.html">Contenido extra</a>
+            </ul>
+        </header>
+    </div>
+
+    <main id="Reservaciones">
+
+        <div>
+            <h2 class="SubtituloReservacion">¡Reserva aquí!</h2>
+            <img class="Imagenes" src="./IMG/¡Reserva tu viaje a Japón!.jpg" alt="¡Reserva tu viaje a Japón!">
+             <br><br>
+        </div>
+       
+        <form id="Formulario" action="">
+            <label class="Etiqueta" for="Nombre" >Nombre:</label>
+            <input type="text" id="Nombre" autofocus>
+            <br><br>
+            <label class="Etiqueta" for="Correo">Correo electrónico:</label>
+            <input type="email" id="Correo">
+            <br><br>
+            <label class="Etiqueta" for="Numero">Número:</label>
+            <input type="tel" id="Numero">
+            <br><br>
+            <label class="Etiqueta" for="FechaI">Fecha de inicio del viaje:</label>
+            <input type="date" id="FechaI">
+            <br><br>
+            <label class="Etiqueta" for="FechaF">Fecha de fin del viaje:</label>
+            <input type="date" id="FechaF">
+            <br><br>
+            <button id="BotonEnviar">Enviar</button>
+        </form>
+        
+    </main>
+
+    <footer id="Referencias">
+        Sergio Sebastián Reyes Arango
+        <br>
+        Correo: sergio.reyes@udgvirtual.udg.mx
+    </footer>
+</body>
+</html>

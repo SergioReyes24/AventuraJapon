@@ -1,0 +1,174 @@
+@media (max-width: 1058px){
+    #Inicio, #Historia, #Testimonios {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "Menu Menu"
+        "Contenido Contenido"
+        "Pie Pie";
+        padding: 1%;
+    }
+    
+    #Cabecera, #CabeceraHistoria, #CabeceraTestimonios {
+        grid-area: Menu;
+    }
+    
+    main {
+        grid-area: Contenido;
+    }
+
+    .Texto {
+        font-size: 4vw;
+    }
+    
+    footer {
+        grid-area: Pie;
+        
+    }
+
+    #Inicio{
+        background:#facac8;
+    }
+    
+    #Historia {
+        background:#f2e0b4;
+    }
+    
+    #Atracciones {
+        background:#45d0fc;
+    }
+    
+    #Testimonios {
+        background:#74ca0a;    
+    }
+    
+    #Reservacion {
+        background:#f1f1f1;
+    }
+    
+    #Extra {
+        background:#efa0eb;
+    }
+    
+    .Imagenes {
+        width: 100%;
+    }
+
+    #Cabecera > h1 {
+        font-size: 5vw;
+    }
+
+    #TituloInicio, #TituloHistoria, #TituloAtracciones, #TituloTestimonio, #TituloExtra{
+        font-size: 5vw;
+    }
+
+    .SubtituloInicio, .SubtituloHistoria, .SubtituloTestimonio, .SubtituloExtra{
+        font-size: 8vw;
+    }
+
+    .CheckBoton {
+        display: block;
+    }
+
+    #ListaMenu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:rgba(244, 81, 81, 0.85);
+        text-align: center;
+        transition: all .5s;
+        left: -130%;
+    }
+
+    #Menu > #ListaMenu > a {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .BotonMenu:hover, .BotonMenu:active, .BotonMenuActual:hover, .BotonMenuActual:active {
+        background: none;
+        color: #bd0000;
+    }
+
+    #Check:checked ~ #Menu > ul {
+        left: -5%;
+    }
+
+    .Etiqueta {
+        font-size: 4vw;
+    }
+
+    #Nombre, #Correo, #Numero, #FechaI, #FechaF {
+        width: 50%;
+    }
+
+    #SeccionesInteresantes {
+        margin: 15%;
+        height: 10px;
+    }
+    
+    #SeccionesInteresantes > h2 {
+       font-size: 4vw;
+    }
+    
+    .BotonInteres {
+        margin: 0px;
+        font-size: 3vw;
+        padding: 2px;
+    }
+
+    #Sitios {
+        display: block;
+        height: 30%;
+        background-color: #45d0fc;
+    }
+    
+    #Sitios > div {
+        background-color: #45d0fc;
+    }
+
+    #Sitios > div > .Subtitulo {
+        font-size: 8vw;
+    }
+    
+    #Sitios > div > .Texto {
+        font-size: 4.5vw;
+    }
+    
+    #Sitios > div > .Imagenes {
+        width: 100%;
+    }
+
+    .ItemLista {
+        font-size: 30px;
+    }
+
+    #Lugares {
+        display: block;
+        background-color: #efa0eb;
+        margin-right: 12%;
+    }
+    
+    #Lugares > div {
+        background-color: #efa0eb;
+    }
+    
+    #Lugares > div > .Imagenes {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    #Referencias {
+        font-size: 3vw;
+        margin: 0% 0;
+        padding: 1%;
+    }
+}
